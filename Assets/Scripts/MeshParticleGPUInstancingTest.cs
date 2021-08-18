@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClearCoatTest : MonoBehaviour
+public class MeshParticleGPUInstancingTest : MonoBehaviour
 {
     Controls input;
     bool sw;
@@ -14,10 +14,7 @@ public class ClearCoatTest : MonoBehaviour
         input.UI.Submit.started += ctx =>
         {
             sw = !sw;
-            if (sw)
-                GetComponent<Renderer>().material.EnableKeyword("_CLEARCOAT");
-            else
-                GetComponent<Renderer>().material.DisableKeyword("_CLEARCOAT");
+            GetComponent<ParticleSystemRenderer>().enableGPUInstancing = sw;
         };
     }
 

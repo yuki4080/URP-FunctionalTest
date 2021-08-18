@@ -1,23 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
-public class ClearCoatTest : MonoBehaviour
+public class SSAOTest : MonoBehaviour
 {
     Controls input;
     bool sw;
 
     void Awake()
     {
+        UniversalAdditionalCameraData additionalCameraData = GetComponent<UniversalAdditionalCameraData>();
         sw = true;
         input = new Controls();
         input.UI.Submit.started += ctx =>
         {
             sw = !sw;
             if (sw)
-                GetComponent<Renderer>().material.EnableKeyword("_CLEARCOAT");
+                additionalCameraData.SetRenderer(1);
             else
-                GetComponent<Renderer>().material.DisableKeyword("_CLEARCOAT");
+                additionalCameraData.SetRenderer(-1);
         };
     }
 
