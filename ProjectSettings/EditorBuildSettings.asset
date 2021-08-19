@@ -12,9 +12,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Universal Render Pipeline Template.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
+    path: Assets/Scenes/Lighting Mode Shadowmask.unity
+    guid: b6cd433debc8a244190d97776c2ebce5
+  - enabled: 1
+    path: Assets/Scenes/Additional Lights.unity
+    guid: 35326d4d6d91c424eafc6a9792ec95b7
+  - enabled: 1
+    path: Assets/Scenes/Planar Reflections.unity
+    guid: 40ef38e2820b6e64fbacf477d6a64c4b
+  - enabled: 1
     path: Assets/Scenes/Clear Coat.unity
     guid: c693039f7fe9536409991e8d377b61f9
   - enabled: 1
     path: Assets/Scenes/Mesh Particle GPU Instancing.unity
     guid: 5c845b0e3ce1ed347a3911e415438bf3
+  - enabled: 1
+    path: Assets/Scenes/Screen Space Ambient Occlusion.unity
+    guid: 74f8dc4843785a549982a5246a615d46
+  - enabled: 1
+    path: Assets/Scenes/Point Light Shadows.unity
+    guid: a6096f87c0bb6ae47affc4d9c4af4beb
+  - enabled: 1
+    path: Assets/Scenes/Spot Light Shadows.unity
+    guid: ca5377afeaca6e12ab231b71cb73a18a
+  - enabled: 1
+    path: Assets/Scenes/Terrain.unity
+    guid: cadaca29c8316344cba0db578636f8f7
   m_configObjects: {}
