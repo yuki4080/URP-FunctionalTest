@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Additional Lights.unity
     guid: 35326d4d6d91c424eafc6a9792ec95b7
   - enabled: 1
+    path: Assets/Scenes/Light Layers.unity
+    guid: fe8263e4ae96a654b8f975143ab5acff
+  - enabled: 1
     path: Assets/Scenes/Planar Reflections.unity
     guid: 40ef38e2820b6e64fbacf477d6a64c4b
   - enabled: 1
@@ -27,8 +30,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Mesh Particle GPU Instancing.unity
     guid: 5c845b0e3ce1ed347a3911e415438bf3
   - enabled: 1
+    path: Assets/Scenes/Camera Stacking.unity
+    guid: ff8bbf952aa26f14cb325d2ce062d11f
+  - enabled: 1
     path: Assets/Scenes/Screen Space Ambient Occlusion.unity
     guid: 74f8dc4843785a549982a5246a615d46
+  - enabled: 1
+    path: Assets/Scenes/Render Objects (Occlusion Effect).unity
+    guid: 4f58a804b5e1214448d9840badbaa40b
   - enabled: 1
     path: Assets/Scenes/Point Light Shadows.unity
     guid: a6096f87c0bb6ae47affc4d9c4af4beb

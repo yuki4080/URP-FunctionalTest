@@ -355,7 +355,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: 1
+  m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -383,6 +383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5307601b6e81549860a8e9ddd2006e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usePipelineAsset: {fileID: 11400000, guid: 120b412d68c91174b830f9c8c02cf8c1, type: 2}
+  defaultPipelineAsset: {fileID: 11400000, guid: 19ba41d7c0026c3459d37c2fe90c55a0, type: 2}
   ui: {fileID: 160513631}
 --- !u!1 &240498574
 GameObject:
