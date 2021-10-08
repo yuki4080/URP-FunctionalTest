@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class ClearCoatTest : MonoBehaviour
 {
-    [SerializeField]
-    Text ui;
+    [SerializeField] Text ui;
     Controls input;
     bool sw;
 
