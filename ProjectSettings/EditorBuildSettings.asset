@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Planar Reflections.unity
     guid: 40ef38e2820b6e64fbacf477d6a64c4b
   - enabled: 1
+    path: Assets/Scenes/ReflectionProbe.unity
+    guid: 774b709de8c16704f8c57736ec02f137
+  - enabled: 1
     path: Assets/Scenes/Clear Coat.unity
     guid: c693039f7fe9536409991e8d377b61f9
   - enabled: 1
@@ -50,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Decal.unity
     guid: 25bf4112bd389d643a75fbf4cc6a305c
+  - enabled: 1
+    path: Assets/Scenes/Enlighten Realtime GI.unity
+    guid: d1c13a7073507d74792f0db216dc1325
+  - enabled: 1
+    path: Assets/Scenes/Enlighten Baked GI.unity
+    guid: 374ac84b4c2b11e46af3e25471300785
   m_configObjects: {}
